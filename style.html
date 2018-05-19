@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adresboek</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+<html>
+<body>
+	<h1>Adresboek</h1>
+	<table id="contacts-table">
+		<tr id="contacts-head">
+			<th>ID</th>
+			<th>Voornaam</th>
+			<th>Achternaam</th>
+            <th>Straat + huisnr</th>
+			<th>Postcode</th>
+            <th>Plaaats</th>
+			<th>Email</th>
+			<th>Actie</th>
+		</tr>
+	</table>
+
+	<form id="contacts-form">
+		<div class="item text">
+			<label>Voornaam:</label>
+			<div class="field"><input type="text" name="voornaam" /></div>
+		</div>
+		<div class="item text">
+			<label>Achternaam</label>
+			<div class="field"><input type="text" name="achternaam" /></div>
+		</div>
+        <div class="item text">
+			<label>Straaat + huisnummer</label>
+			<div class="field"><input type="text" name="straat" /></div>
+		</div>
+        <div class="item text">
+			<label>Postcode</label>
+			<div class="field"><input type="text" name="postcode" /></div>
+		</div>
+        </div>
+        <div class="item text">
+			<label>Plaats</label>
+			<div class="field"><input type="text" name="plaats" /></div>
+		</div>
+		<div class="item text">
+			<label>Email:</label>
+			<div class="field"><input type="text" name="email" /></div>
+		</div>
+		<div class="button-wrapper">
+			<div class="item button">
+				<div class="field"><input type="button" id="contacts-op-reset" value="Reset" /></div>
+			</div>
+			<div class="item button button-default">
+				<div class="field"><input type="submit" id="contacts-op-save" value="Opslaan" /></div>
+			</div>
+		</div>
+		<input type="hidden" name="id_entry" value="0" />
+	</form>
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
